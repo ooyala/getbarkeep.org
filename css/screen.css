@@ -1,0 +1,18 @@
+/* TODO(caleb): Can we use sass or something with jekyll on GH pages? */
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f2f2f2;
+  font: 14px helvetica, arial, sans-serif;
+}
+
+#teaser {
+  font-size: 300%;
+  text-align: center;
+  margin-top: 50px;
+}
