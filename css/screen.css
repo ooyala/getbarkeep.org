@@ -4,15 +4,109 @@
 * {
   margin: 0;
   padding: 0;
+  line-height: 100%;
 }
 
 body {
-  background-color: #f2f2f2;
-  font: 14px helvetica, arial, sans-serif;
+  font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
+  font-size: 18px;
+  background-image: url(/images/background.png);
+  width: 900px;
+  margin: 0 auto;
+  padding-top: 62px;
 }
 
-#teaser {
-  font-size: 300%;
+h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+
+h1, h2 {
+  /* Varela is a font which is loaded using Google Web Fonts. */
+  font-family: "Varela", sans-serif;
+  letter-spacing: -1px;
+}
+
+a { color: #D20000; }
+/* TODO(philc): add a link hover style */
+
+p {
+  line-height: 160%;
+}
+
+.brownText {
+  color: #866949;
+}
+
+#header {
+  padding: 0 15px;
+  font-size: 20px;
+}
+
+#videoBox {
+  float: right;
+}
+
+#videoBox h1 {
+  margin-bottom: 15px;
+  font-size: 44px;
+  color: #D20000;
+  text-shadow: 0px 1px 1px #444;
+  font-weight: bold;
+}
+
+h1 span#barkeepText {
+  color: #404040;
+}
+
+#video {
+  width: 560px;
+  height: 350px;
+/*  border: 1px solid #cecece;*/
+  box-shadow: 0 3px 8px #555;
+}
+
+#introLinks img {
+  margin-top: 60px;
+}
+#introLinks ol {
+  margin: 23px 0;
+}
+#introLinks li {
+  margin: 12 0px;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 20px 0;
+}
+
+#frontPage h2 {
+  padding: 0 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #A1864E;
+  margin-bottom: 10px;
+}
+
+#frontPage p {
+  padding: 0 15px;
+}
+
+#featureTable td {
+  padding: 0 15px;
+  width: 33%;
+  vertical-align: top;
+}
+
+#featureTable p {
+  padding: 0;
+}
+
+#featureTable h3 {
+  color: #866949;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+footer {
+  margin: 50px 0;
+  font-size: 13px;
   text-align: center;
-  margin-top: 50px;
 }
