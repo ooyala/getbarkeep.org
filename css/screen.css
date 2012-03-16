@@ -76,10 +76,15 @@ h1 span#barkeepText {
   margin-top: 60px;
 }
 #introLinks ol {
-  margin: 23px 0;
+  margin-top: 20px;
+  margin-bottom: 23px;
 }
 #introLinks li {
   margin: 12 0px;
+}
+#introLinks li#watchThisVideo {
+  padding-top: 3px;
+  background: transparent url(/images/brown_arrow.png) no-repeat 162px -5px;
 }
 
 h2 {
