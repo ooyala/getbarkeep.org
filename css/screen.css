@@ -24,8 +24,17 @@ h1, h2 {
   letter-spacing: -1px;
 }
 
-a { color: #D20000; }
-/* TODO(philc): add a link hover style */
+a {
+  color: #D20000;
+  padding: 0 3px;
+  margin: 0 -3px;
+}
+
+a:hover {
+  background-color: #C41D11;
+  color: white;
+  box-shadow: 0px 0px 4px #E77245;
+}
 
 p {
   line-height: 160%;
