@@ -13,7 +13,7 @@ body {
   background-image: url(/images/background.png);
   width: 900px;
   margin: 0 auto;
-  padding-top: 62px;
+  padding-top: 40px;
 }
 
 h1, h2, h3, h4, h5, h6 { font-weight: normal; }
@@ -59,6 +59,7 @@ p {
   color: #D20000;
   text-shadow: 0px 1px 1px #444;
   font-weight: bold;
+  height: 45px;
 }
 
 h1 span#barkeepText {
@@ -67,16 +68,19 @@ h1 span#barkeepText {
 
 #video {
   width: 560px;
-  height: 350px;
+  height: 314px;
   box-shadow: 0 3px 8px #555;
 }
 
 #introLinks img {
-  margin-top: 60px;
+  /* This margin makes the barkeep head aligned with the top of the video. */
+  margin-top: 58px;
+  height: 200px;
+  margin-left: -2px;
 }
 #introLinks ol {
-  margin-top: 20px;
-  margin-bottom: 23px;
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 #introLinks li {
   margin: 12 0px;
