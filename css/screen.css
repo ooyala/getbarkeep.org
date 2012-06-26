@@ -13,7 +13,7 @@ body {
   background-image: url(/images/background.png);
   width: 900px;
   margin: 0 auto;
-  padding-top: 40px;
+  padding-top: 35px;
 }
 
 h1, h2, h3, h4, h5, h6 { font-weight: normal; }
@@ -72,6 +72,10 @@ h1 span#barkeepText {
   box-shadow: 0 3px 8px #555;
 }
 
+#introLinks {
+  margin-bottom: 38px;
+}
+
 #introLinks img {
   /* This margin makes the barkeep head aligned with the top of the video. */
   margin-top: 58px;
@@ -100,6 +104,7 @@ h2 {
   padding-bottom: 10px;
   border-bottom: 1px solid #A1864E;
   margin-bottom: 10px;
+  margin-top: 25px;
 }
 
 #frontPage p {
