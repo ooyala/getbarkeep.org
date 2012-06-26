@@ -112,6 +112,10 @@ h2 {
   vertical-align: top;
 }
 
+#featureTable tr:nth-of-type(2) > td {
+  padding-top: 10px;
+}
+
 #featureTable p {
   padding: 0;
 }
