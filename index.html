@@ -17,7 +17,17 @@
       var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
     })();
   </script>
-
+  <script type="text/javascript">
+    window.onload = function()
+    {
+      // arrow is off center on iOS, so hide it
+      if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPod/i)
+          || navigator.userAgent.match(/iPad/i))
+      {
+        document.getElementById("watchThisVideo").classList.remove("arrow");
+      }
+    }
+  </script>
 </head>
 
 <body>
@@ -32,7 +42,7 @@
   <div id="introLinks">
     <div id="logo"></div>
     <ol>
-      <li id="watchThisVideo">Watch this video</li>
+      <li id="watchThisVideo" class="arrow">Watch this video</li>
       <li>Play with a <a href="http://demo.getbarkeep.org">live Barkeep demo</a></li>
       <li><a href="#gettingStarted">Use Barkeep</a> with your project</li>
     </ol>
@@ -103,5 +113,8 @@
 
 
 <footer>Open sourced by <a href="http://www.ooyala.com">Ooyala Engineering</a>.</footer>
+<<<<<<< HEAD
 </body>
 </html>
+=======
+>>>>>>> Hide arrow on iOS because the position is off.

@@ -98,6 +98,10 @@ h1 span#barkeepText {
 }
 #introLinks li#watchThisVideo {
   padding-top: 3px;
+}
+
+.arrow
+{
   background: transparent url(/images/brown_arrow.png) no-repeat 162px -5px;
 }
 
