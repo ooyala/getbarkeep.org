@@ -143,6 +143,11 @@ h2 {
   margin-bottom: 5px;
 }
 
+#hackerNewsLink {
+  line-height: 200%;
+  vertical-align: top;
+}
+
 footer {
   margin: 50px 0;
   font-size: 13px;
