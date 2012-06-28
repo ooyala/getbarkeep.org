@@ -73,14 +73,21 @@ h1 span#barkeepText {
 }
 
 #introLinks {
+  /* This margin makes the barkeep head aligned with the top of the video. */
+  padding-top: 38px;
   margin-bottom: 38px;
 }
 
-#introLinks img {
-  /* This margin makes the barkeep head aligned with the top of the video. */
-  margin-top: 58px;
+#logo {
   height: 200px;
-  margin-left: -2px;
+  width: 265px;
+  margin-left: -5px;
+  background-repeat: no-repeat;
+  height: 226px;
+  background-image: url(/images/barkeep_logo.png);
+}
+#logo:hover {
+  background-position: -267px 0;
 }
 #introLinks ol {
   margin-top: 15px;
