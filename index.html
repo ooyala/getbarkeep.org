@@ -1,10 +1,26 @@
+<html>
 <head>
   <script src="https://github.com/ooyala/livecss/raw/master/livecss.js"></script>
   <link rel="stylesheet" href="css/screen.css" type="text/css" />
   <link href='http://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
   <title>Barkeep - the friendly code review system</title>
+  <!-- Google analytics -->
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-33007254-1']);
+    _gaq.push(['_setDomainName', 'getbarkeep.org']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
 </head>
 
+<body>
 <div id="header">
   <div id="videoBox">
     <h1><span id="barkeepText">barkeep</span> does code reviews</h1>
@@ -87,3 +103,5 @@
 
 
 <footer>Open sourced by <a href="http://www.ooyala.com">Ooyala Engineering</a>.</footer>
+</body>
+</html>
