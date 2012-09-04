@@ -1,5 +1,6 @@
 require "sinatra"
 
 get "*" do
-  redirect "http://getbarkeep.org#{request.path}", 301
+  new_uri = "#{request.scheme}://#{request.host.gsub(/\.com$/, ".org")}#{env["REQUEST_URI"]}"
+  redirect new_uri, 301
 end
